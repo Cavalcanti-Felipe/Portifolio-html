@@ -23,7 +23,8 @@ Este é o meu projeto de portfólio pessoal, desenvolvido como parte de um exerc
 ├── index.html        # Página inicial
 ├── sobre.html        # Página "Sobre Mim"
 ├── contato.html      # Página de contato
-├── login.html        # Página de login
+├── sinalerta.html    # Página do Projeto 1
+├── pytreino.html     # Página do prejeto 2
 ├── assets/
 │   ├── css/
 │   │   └── style.css # Estilos personalizados
