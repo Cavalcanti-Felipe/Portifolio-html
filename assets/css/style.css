@@ -1,0 +1,79 @@
+/* Botão no tema claro */
+.nav-wrapper .btn {
+    background-color: #ee6e73;
+    /* Azul escuro do tema claro */
+    color: #ffffff;
+}
+
+/* Botão no tema escuro */
+body.dark-theme .nav-wrapper .btn {
+    background-color: #333333;
+    /* Cor do tema escuro */
+    color: #ffffff;
+}
+
+/* Hover do botão */
+.nav-wrapper .btn:hover {
+    background-color: #f08083;
+    /* Azul mais escuro para o hover */
+}
+
+body.dark-theme .nav-wrapper .btn:hover {
+    background-color: #444444;
+    /* Cor mais clara para hover no tema escuro */
+}
+
+/* Estilo dos links na aba de contato */
+.card-content a {
+    text-decoration: none;
+    /* Remove sublinhado */
+    color: inherit;
+    /* Herda a cor do texto do elemento pai */
+}
+
+/* Remove qualquer estilo de hover no link */
+.card-content a:hover {
+    color: inherit;
+    text-decoration: underline;
+}
+
+/* Tema Escuro */
+body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.dark-theme .card,
+body.dark-theme .nav-wrapper {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+body.dark-theme a {
+    color: #bb86fc;
+}
+
+#sinalerta .content {
+    display: flex; /* Ativa o layout flex */
+    align-items: center; /* Alinha verticalmente no centro */
+    justify-content: space-between; /* Espaço entre os elementos */
+}
+
+#sinalerta .content p {
+    width: 60%; /* Define o tamanho do texto */
+    font-size: 16px; /* Ajusta o tamanho da fonte */
+    margin: 0 20px 0 0; /* Espaçamento entre texto e imagem */
+}
+
+#sinalerta .content img {
+    width: 35%; /* Ajuste do tamanho da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Opcional: bordas arredondadas */
+}
+
+#sinalerta .content video {
+    width: 60%; /* Ajusta o tamanho do vídeo */
+    height: auto; /* Mantém a proporção do vídeo */
+    border-radius: 8px; /* Opcional: bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona um efeito de sombra */
+}
